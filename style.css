@@ -1,0 +1,37 @@
+
+.gallery {
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#boxes div {
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid black;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+}
+ul{
+    list-style: none;
+}
+.image {
+    display: none;
+
+}
+
